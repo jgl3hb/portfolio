@@ -1,12 +1,14 @@
-// src/components/Projects.js
 import React from 'react';
 
 function Projects() {
+  // Use flex and flex-col to create a column flex container
+  // Use justify-center and items-center to center the content vertically and horizontally
+  // Use min-h-screen to ensure the container takes at least the full height of the viewport
   return (
-    <div className="projects-page space-y-4">
+    <div className="flex flex-col justify-center items-center min-h-screen space-y-4">
       <h1 className="text-2xl font-bold">Projects</h1>
 
-      <div className="project space-y-2">
+      <div className="project space-y-2 text-center">
         <h2 className="text-xl font-semibold">Blackjack Game</h2>
         <p className="text-gray-700">Javascript, React, Tailwind CSS</p>
         <a
@@ -19,20 +21,7 @@ function Projects() {
         </a>
       </div>
 
-      <div className="project space-y-2">
-        <h2 className="text-xl font-semibold">Raspberry Pi Projects</h2>
-        <p className="text-gray-700">Description of your Raspberry Pi projects</p>
-        <a
-          href="https://github.com/jgl3hb/raspberry-pi-projects"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="text-blue-600 hover:text-blue-800 visited:text-purple-600"
-        >
-          View on GitHub
-        </a>
-      </div>
-
-      <div className="project space-y-2">
+      <div className="project space-y-2 text-center">
         <h2 className="text-xl font-semibold">BookNerd Website</h2>
         <p className="text-gray-700">Javascript</p>
         <a

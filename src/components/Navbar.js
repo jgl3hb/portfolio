@@ -1,13 +1,34 @@
-
+// components/Navbar.js
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { useLocation } from 'react-router-dom';
 
 function Navbar() {
+  const location = useLocation();
+
+  // Define the navigation links
+  const navLinks = [
+    { name: 'Home', path: '/' },
+    { name: 'About', path: '/about' },
+    { name: 'Software', path: '/software' },
+    { name: 'Hardware', path: '/hardware' },
+    { name: 'Resume', path: '/resume' },
+    { name: 'Blog', path: '/blog' },
+  ];
+
   return (
-    <nav className="navbar">
-      <Link to="/about" className="nav-link">About</Link>
-      <Link to="/projects" className="nav-link">Projects</Link>
-      <Link to="/resume" className="nav-link">Resume</Link>
+    <nav className="py-4">
+      <div className="flex flex-col items-center">
+        {/* Loop through navLinks to render them conditionally */}
+        <div className="flex space-x-4">
+          {navLinks.map((link) =>
+            location.pathname !== link.path ? (
+              <a key={link.name} href={link.path} className="text-blue-800 hover:text-blue-600">
+                {link.name}
+              </a>
+            ) : null
+          )}
+        </div>
+      </div>
     </nav>
   );
 }
