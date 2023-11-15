@@ -12,12 +12,20 @@ function Projects() {
         <h2 className="text-xl font-semibold">Blackjack Game</h2>
         <p className="text-gray-700">Javascript, React, Tailwind CSS</p>
         <a
-          href="https://github.com/jgl3hb/blackjack"
+          href="https://github.com/jgl3hb/react-jack"
           target="_blank"
           rel="noopener noreferrer"
           className="text-blue-600 hover:text-blue-800 visited:text-purple-600"
         >
-          View on GitHub
+          See the code
+        </a>
+        <a
+          href="https://github.com/jgl3hb/react-jack"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-blue-600 hover:text-blue-800 visited:text-purple-600"
+        >
+          Play the game
         </a>
       </div>
 
