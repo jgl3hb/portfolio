@@ -20,7 +20,7 @@ function Projects() {
           See the code
         </a>
         <a
-          href="https://github.com/jgl3hb/react-jack"
+          href="https://655441424d4d01509ac9e02b--lambent-bonbon-76f0c6.netlify.app/"
           target="_blank"
           rel="noopener noreferrer"
           className="text-blue-600 hover:text-blue-800 visited:text-purple-600"
