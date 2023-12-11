@@ -5,8 +5,7 @@ function Hardware() {
     <div className="flex flex-col justify-center items-center min-h-screen">
       <div className="text-center"> 
         <h2 className="text-xl font-semibold">Yankee Sunrises</h2>
-        <p className="text-gray-700">A nod to Sunrise Earth, Planet Earth's unheralded little sibling. This project documents sunrises primarily shot around Southern Maine. </p>
-        <p>The general setup can be attributed to user called fotosyn.</p>
+        <p>A nod to Sunrise Earth, Planet Earth's unheralded little sibling. This project documents sunrises primarily shot around Southern Maine. The general setup can be attributed to a user called fotosyn.</p>
         <p>While staying with family in Missouri during the pandemic, I realized how deeply I missed the sunrises around Portland, Maine, my adopted home. 
           I began the journey of coding with basic Python scripts with a Raspberry Pi.</p>
         <div>
