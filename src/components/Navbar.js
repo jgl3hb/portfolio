@@ -12,7 +12,6 @@ function Navbar() {
     { name: 'Software', path: '/software' },
     { name: 'Hardware', path: '/hardware' },
     { name: 'Resume', path: '/resume' },
-    { name: 'Blog', path: '/blog' },
   ];
 
   return (
@@ -22,7 +21,7 @@ function Navbar() {
         <div className="flex space-x-4">
           {navLinks.map((link) =>
             location.pathname !== link.path ? (
-              <a key={link.name} href={link.path} className="text-blue-800 hover:text-blue-600">
+<a key={link.name} href={link.path} className="text-black-800 hover:underline">
                 {link.name}
               </a>
             ) : null

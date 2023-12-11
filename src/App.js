@@ -6,7 +6,6 @@ import About from './components/About';
 import Resume from './components/Resume';
 import Software from './components/Software';
 import Hardware from './components/Hardware';
-import Blog from './components/Blog';
 import Home from './components/Home'
 
 
@@ -23,7 +22,6 @@ function App() {
             <Route path="/resume" element={<Resume />} />
             <Route path="/software" element={<Software />} />
             <Route path="/hardware" element={<Hardware />} />
-            <Route path="/blog" element={<Blog />} />
           </Routes>
         </div>
       </div>
