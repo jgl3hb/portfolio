@@ -8,7 +8,7 @@ function Hardware() {
         <p className="text-gray-700">A nod to Sunrise Earth, Planet Earth's unheralded little sibling. This project documents sunrises primarily shot around Southern Maine. </p>
         <p>The general setup can be attributed to user called fotosyn.</p>
         <p>While staying with family in Missouri during the pandemic, I realized how deeply I missed the sunrises around Portland, Maine, my adopted home. 
-          I began the journey of coding with basic Python scripts with a Raspberry Pi for hobby projects so I could yada yada yada</p>
+          I began the journey of coding with basic Python scripts with a Raspberry Pi.</p>
         <div>
           <a
             href="https://www.instructables.com/Simple-timelapse-camera-using-Raspberry-Pi-and-a-c/"
@@ -31,8 +31,8 @@ function Hardware() {
         </div>
         <div className="video-container mx-auto w-max m-4">
           <iframe
-            width="320"   // Smaller width
-            height="180"  // Corresponding smaller height
+            width="320"   
+            height="180"  
             src="https://www.youtube.com/embed/vID4VyUPosI"
             title="YouTube video player"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
