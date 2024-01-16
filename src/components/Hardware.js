@@ -62,7 +62,7 @@ function Hardware() {
           </a>
           <img
             src="/image.png"
-            alt="image.png"
+            alt="MNIST #3"
             className="w-64 h-64 object-cover mx-auto mt-4"
           />
         </div>
