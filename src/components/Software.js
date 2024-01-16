@@ -2,8 +2,14 @@ import React from 'react';
 
 function Projects() {
   return (
-    <div className="flex flex-col justify-center items-center min-h-screen space-y-4">
+    <div className="flex flex-row justify-center items-center flex-wrap min-h-screen space-x-4">
+      
       <div className="project text-center">
+        <img
+          src="/oracle.jpg"
+          alt="Oracle-GPT Thumbnail"
+          className="w-64 h-64 object-cover mx-auto mt-4"
+        />
         <h2 className="text-xl font-semibold">Oracle-GPT</h2>
         <p className="text-gray-700">A GPT-3.5 Wrapper</p>
         <div>
@@ -28,12 +34,12 @@ function Projects() {
         </div>
       </div>
 
-      <img
-        src="/oracle.jpg"
-        alt="Blackjack Game Thumbnail"
-        className="w-48 h-48 object-cover mx-auto mt-4"
-      />
-       <div className="project text-center">
+      <div className="project text-center">
+        <img
+          src="/blackjack.png"
+          alt="Blackjack Game Thumbnail"
+          className="w-64 h-64 object-cover mx-auto mt-4"
+        />
         <h2 className="text-xl font-semibold">Blackjack Game</h2>
         <p className="text-gray-700">Javascript, React, Tailwind CSS</p>
         <div>
@@ -57,12 +63,6 @@ function Projects() {
           </a>
         </div>
       </div>
-
-      <img
-        src="/blackjack.png"
-        alt="Blackjack Game Thumbnail"
-        className="w-48 h-48 object-cover mx-auto mt-4"
-      />
     </div>
   );
 }

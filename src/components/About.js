@@ -1,4 +1,3 @@
-// src/components/About.js
 import React from 'react';
 import { useLocation } from 'react-router-dom';
 
@@ -13,12 +12,12 @@ function About() {
       <h3 className="text-xl mb-2">Software Engineer | Hardware Hobbyist</h3>
       {isAboutPage && (
         <>
-          <p>Technology is my main thing. In my spare time, I enjoy skiing, surfing, and reading.</p>
-          <p></p>
-          <p>I reside in Portland, Maine.</p>
+          <p className="mb-4">I'm a full stack developer with experience writing Javascript, Python, and Ruby.</p>
+          <p className="mb-4">In my spare time, I enjoy skiing, surfing, and reading.</p>
+          <p className="mb-4">I reside in Portland, Maine.</p>
         </>
       )}
-      <div className="contact-info">
+      <div className="contact-info mb-4">
         <ul>
           <li>Email: <a href="mailto:lewis.jeffreyg@gmail.com" className="text-black-800 hover:underline">lewis.jeffreyg@gmail.com</a></li>
           <li>LinkedIn: <a href="https://www.linkedin.com/in/jeffrey-g-lewis" target="_blank" rel="noopener noreferrer" className="text-black-800 hover:underline">jeffrey-g-lewis</a></li>
