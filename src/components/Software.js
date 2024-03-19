@@ -54,7 +54,7 @@ function Projects() {
         </div>
         <div>
           <a
-            href="https://655441424d4d01509ac9e02b--lambent-bonbon-76f0c6.netlify.app/"
+            href="https://lambent-bonbon-76f0c6.netlify.app/"
             target="_blank"
             rel="noopener noreferrer"
             className="text-blue-600 hover:text-blue-800 visited:text-purple-600"
