@@ -13,8 +13,8 @@ function About() {
       {isAboutPage && (
         <>
           <p className="mb-4">I'm a full stack developer with experience writing Javascript, Python, and Ruby.</p>
-          <p className="mb-4">In my spare time, I enjoy skiing, surfing, and reading.</p>
-          <p className="mb-4">I reside in Portland, Maine.</p>
+          <p className="mb-4">In my spare time, I enjoy skiing, building AI tools with Raspberry PI, and reading.</p>
+          <p className="mb-4">I reside in Denver, Colorado.</p>
         </>
       )}
       <div className="contact-info mb-4">
