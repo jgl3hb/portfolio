@@ -39,13 +39,12 @@ function Resume() {
       <div className="resume-container mt-5">
         <iframe
           src={process.env.PUBLIC_URL + '/jefflewisresume.pdf'}
-          type="application/pdf"
           width="100%"
-          height="800px"
-          style={{ display: 'block', maxWidth: '100%', maxHeight: '90vh', margin: 'auto' }}
+          height="1100px"
+          style={{ display: 'block', width: '100%', height: '1100px', maxWidth: '850px', margin: 'auto', border: 'none' }}
           title="Jeff Lewis Resume"
         >
-          <p>Your browser does not support iframes.</p>
+          <p>Your browser does not support iframes. Please download the resume using the button above.</p>
         </iframe>
       </div>
     </div>
