@@ -35,14 +35,34 @@ function Hardware() {
               View on GitHub
             </a>
           </div>
-          <div className="video-container mx-auto w-max m-4">
-            <iframe
-              width="320"
-              height="180"
-              src="https://www.youtube.com/embed/vID4VyUPosI"
-              title="YouTube video player"
-              allowFullScreen
-            ></iframe>
+          <div className="flex flex-wrap justify-center gap-4 my-4">
+            <div className="video-container">
+              <iframe
+                width="320"
+                height="180"
+                src="https://www.youtube.com/embed/vID4VyUPosI"
+                title="YouTube video player"
+                allowFullScreen
+              ></iframe>
+            </div>
+            <div className="video-container">
+              <iframe
+                width="320"
+                height="180"
+                src="https://www.youtube.com/embed/QFoTlr2BGDs"
+                title="YouTube video player"
+                allowFullScreen
+              ></iframe>
+            </div>
+            <div className="video-container">
+              <iframe
+                width="320"
+                height="180"
+                src="https://www.youtube.com/embed/9nQB3D0Ww98"
+                title="YouTube video player"
+                allowFullScreen
+              ></iframe>
+            </div>
           </div>
         </div>
 
