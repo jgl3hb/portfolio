@@ -35,17 +35,18 @@ function Resume() {
         Download Resume
       </button>
       {message && <div className="download-message mt-2 text-sm text-gray-600">{message}</div>}
-      {/* Iframe container for displaying the PDF */}
-      <div className="resume-container mt-5">
-        <iframe
-          src={process.env.PUBLIC_URL + '/jefflewisresume.pdf'}
-          width="100%"
-          height="1100px"
-          style={{ display: 'block', width: '100%', height: '1100px', maxWidth: '850px', margin: 'auto', border: 'none' }}
-          title="Jeff Lewis Resume"
-        >
-          <p>Your browser does not support iframes. Please download the resume using the button above.</p>
-        </iframe>
+      {/* Rendered resume pages without browser iframe frames */}
+      <div className="resume-container mt-6 flex flex-col items-center gap-6">
+        <img
+          src={process.env.PUBLIC_URL + '/resume-page-1.png'}
+          alt="Jeff Lewis Resume Page 1"
+          className="w-full max-w-3xl rounded bg-white shadow-md"
+        />
+        <img
+          src={process.env.PUBLIC_URL + '/resume-page-2.png'}
+          alt="Jeff Lewis Resume Page 2"
+          className="w-full max-w-3xl rounded bg-white shadow-md"
+        />
       </div>
     </div>
   );

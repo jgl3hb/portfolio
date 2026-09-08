@@ -12,9 +12,8 @@ function About() {
       <h3 className="text-xl mb-2">Software Engineer | Hardware Hobbyist</h3>
       {isAboutPage && (
         <>
-          <p className="mb-4">I'm a full stack developer with experience writing Javascript, Python, and Ruby.</p>
-          <p className="mb-4">In my spare time, I enjoy skiing, building AI tools with Raspberry PI, and reading.</p>
-          <p className="mb-4">I reside in Denver, Colorado.</p>
+          <p className="mb-4">I design and build AI agent systems and scalable data architectures for web, edge, and hardware applications—spanning facial and object detection models, MCP servers, and in-memory knowledge graphs.</p>
+          <p className="mb-4">I reside in southern Maine and enjoy skiing, surfing, reading, and hiking with my fiance and our dogs in my free time.</p>
         </>
       )}
       <div className="contact-info mb-4">
