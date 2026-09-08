@@ -11,10 +11,10 @@ function About() {
       <h1 className="text-2xl font-bold my-2">Jeff Lewis</h1>
       <h3 className="text-xl mb-2">Software Engineer | Hardware Hobbyist</h3>
       {isAboutPage && (
-        <>
+        <div className="w-full max-w-[50%]">
           <p className="mb-4">I design and build AI agent systems and scalable data architectures for web, edge, and hardware applications—spanning facial and object detection models, MCP servers, and in-memory knowledge graphs.</p>
           <p className="mb-4">I reside in southern Maine and enjoy skiing, surfing, reading, and hiking with my fiance and our dogs in my free time.</p>
-        </>
+        </div>
       )}
       <div className="contact-info mb-4">
         <ul>
