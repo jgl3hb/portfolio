@@ -72,19 +72,36 @@ function Hardware() {
             I replicated digit and object recognition machine learning
             experiments using NVIDIA GPU and the MNIST and CIFAR databases.
           </p>
-          <a
-            href="https://github.com/jgl3hb/mnist"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-blue-600 hover:text-blue-800 visited:text-purple-600"
-          >
-            View on GitHub
-          </a>
-          <img
-            src="/image.png"
-            alt="MNIST #3"
-            className="w-64 h-64 object-cover mx-auto mt-4"
-          />
+          <div className="flex flex-col items-center mt-4">
+            <a
+              href="https://github.com/jgl3hb/mnist"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-blue-600 hover:text-blue-800 visited:text-purple-600 mb-2"
+            >
+              MNIST on GitHub
+            </a>
+            <a
+              href="https://github.com/jgl3hb/cifar"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-blue-600 hover:text-blue-800 visited:text-purple-600"
+            >
+              CIFAR on GitHub
+            </a>
+          </div>
+          <div className="flex flex-wrap justify-center gap-4 mt-4">
+            <img
+              src="/image.png"
+              alt="MNIST #3"
+              className="w-64 h-64 object-cover"
+            />
+            <img
+              src="/cifar_preview.png"
+              alt="CIFAR Preview"
+              className="w-64 h-64 object-cover"
+            />
+          </div>
         </div>
       </div>
     </div>
