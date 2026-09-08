@@ -17,7 +17,6 @@
   },
   "scripts": {
     "sync:resume": "cp ../resume/resume.pdf public/jefflewisresume.pdf && pdftoppm -png -r 200 public/jefflewisresume.pdf public/resume-page",
-    "prebuild": "npm run sync:resume",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
