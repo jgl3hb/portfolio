@@ -90,16 +90,16 @@ function Hardware() {
               CIFAR on GitHub
             </a>
           </div>
-          <div className="flex flex-wrap justify-center gap-4 mt-4">
+          <div className="flex flex-wrap justify-center items-center gap-4 mt-4">
             <img
               src="/image.png"
               alt="MNIST #3"
-              className="w-64 h-64 object-cover"
+              className="w-64 h-64 object-contain"
             />
             <img
               src="/cifar_preview.png"
               alt="CIFAR Preview"
-              className="w-64 h-64 object-cover"
+              className="w-64 h-64 object-contain"
             />
           </div>
         </div>
